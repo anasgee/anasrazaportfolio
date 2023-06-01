@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Anas Raza | Home</title>
+  </head>
+  <body>
+    <section>
+      <div class="nav">
+        <div id="left_nav" class="left_nav">
+          <h1>Muhammad Anas's Portfolio</h1>
+        </div>
+        <div id="right_nav" class="right_nav">
+          <ul>
+            <li><a class="nav_link active" href="index.html">Home</a></li>
+            <li><a class="nav_link" href="Services.html">Services</a></li>
+            <li><a class="nav_link" href="blog.html">Blog</a></li>
+            <li><a class="nav_link" href="cv.html">CV</a></li>
+            <li><a class="nav_link" href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="ham_menu">
+      <div id="ham" ><img class="hamburger" src="hamburger.png" alt=""></div>
+      <div id="cross" ><img class="hamburger" src="cross.png" alt=""></div>
+    </div>
+</section>
+
+    <section>
+        <div class="hero">
+            <div class="left_hero">
+                <h3>Hi I am</h3>
+                <h2>Muhammad <span class="purple"> Anas </span></h3>
+                 <h4>I'm Passionate </h3>
+                    <div class="element">
+                        <span id="element"></span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="hero_btn"><a href="anascv.pdf"> Download CV</a></button>
+                        <button class="hero_btn"><a href="contact.html">Contact Me</a> </button>
+                    </div>
+            </div>
+            <div class="right_hero">
+                <img class="hero_img" src="images/anas.png" alt="Anas Raza">
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <div class="services">
+            <h1 id="services" >Services</h1>
+            <div class="cards">
+                <div class="card">
+                    <div class="card_body">
+
+                        <img src="images/web.png" alt="website development">
+                        <h1>Website Development</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ex.</p>
+                        <button class="services_btn">Contact Us</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_body">
+
+                        <img src="images/graphics.png" alt="website development">
+                        <h1>Graphic Designing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ex.</p>
+                        <button class="services_btn">Contact Us</button>
+                    </div>
+                    </div>
+                <div class="card">
+                    <div class="card_body">
+
+                        <img src="images/website.png" alt="website development">
+                        <h1>Website Designing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ex.</p>
+                        <button class="services_btn">Contact Us</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <hr>
+<section>
+    <footer>
+            <div id="footer" class="footer">
+                <div class="footer1"><h1>Muhammad <span class="purple">Anas Raza</span></h1></div>
+                <div class="footer2">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer3">
+                    <ul>
+                        <li><a href="#">Go To</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="copy">Copyrights &copy; Anas <span class="purple">Raza </span> 2023. All Rights Reserved.
+            </div>
+        </footer>
+</section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Website Devloper', 'Website Designer','Graphic Designer','Youtuber','Freelancer'],
+          typeSpeed: 50,
+          fadeout:true,
+          loop:true,
+        });
+      </script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
