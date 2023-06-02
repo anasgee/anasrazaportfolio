@@ -232,7 +232,11 @@ footer .footer{
     }
     .right_nav{
         display: none;
-      
+        position: absolute;
+        background-color:rgb(21, 21, 90);
+        border: 1px solid white;
+        right: 0;
+        border-radius: 20px;     
        height: 15vh;
           
     }
