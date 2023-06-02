@@ -281,6 +281,10 @@ footer .footer{
     .nav ul {
         display: block;
       }
+      .right_nav{
+        height: 25vh;
+
+      }
     .hero .left_hero h2 {
         font-size: 2rem;
     }
@@ -307,6 +311,10 @@ footer .footer{
 @media only screen and (max-width:350px){
     .nav ul {
         display: block;
+      }
+      .right_nav{
+        height: 20vh;
+
       }
     
    .nav h1{
